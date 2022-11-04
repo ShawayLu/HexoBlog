@@ -125,7 +125,7 @@ sidebar:
         # 当页面滚动时左侧侧边栏是否停留在顶部
         sticky: true
     right:
-        sticky: true
+        sticky: false
 widgets:
     -
         # 目录
