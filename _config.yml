@@ -108,3 +108,8 @@ deploy:
   #repo: https://github.com/ShawayL/ShawayL.github.io.git
   repo: git@github.com:ShawayL/ShawayL.github.io.git
   branch: master
+
+#deploy:
+#  type: git
+#  repo: https://gitee.com/Shaway/shaway.git
+#  branch: master
