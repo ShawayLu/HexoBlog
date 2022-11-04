@@ -1,11 +1,11 @@
 ---
 title: {{ title }}
 date: {{ date }}
-updated:
-excerpt:
+updated:  {{ date }}
+excerpt: 
 cover: 
 thumbnail: 
 toc: true
-categories:
-tags:
+categories: 
+tags: 
 ---
