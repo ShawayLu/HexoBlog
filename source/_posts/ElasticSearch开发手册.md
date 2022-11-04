@@ -3,8 +3,8 @@ title: ElasticSearch开发手册
 date: 2022-11-2 16:46:00
 updated: 2022-11-2 16:46:00
 excerpt: ElasticSearch开发手册
-cover: /images/cover/8a7916050d0fef4c0681baf75b9b067.jpg
-thumbnail: /images/cover/8a7916050d0fef4c0681baf75b9b067.jpg
+cover: /images/cover/qyccover0.jpg
+thumbnail: /images/cover/qyccover0.jpg
 toc: true
 categories:
 - 数据库
