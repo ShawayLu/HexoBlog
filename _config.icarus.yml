@@ -1,6 +1,6 @@
 version: 5.1.0
+#variant: default or cyberpunk
 variant: default
-#logo: /img/logo.svg
 logo: /images/logo/sasuke.png
 head:
     favicon: /images/logo/sasuke.png
