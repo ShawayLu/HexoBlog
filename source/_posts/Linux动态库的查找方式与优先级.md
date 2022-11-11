@@ -2,7 +2,7 @@
 title: Linux动态库的查找方式与优先级
 toc: true
 date: 2022-11-10 15:56:44
-updated: 2022-11-10 15:56:44
+updated: 2022-11-11 15:56:44
 excerpt: Linux动态库的查找方式与优先级
 cover: /images/cover/205913.jpg
 thumbnail: /images/cover/205913.jpg
@@ -16,7 +16,8 @@ tags:
 
 在链接时语句后面添加如下命令
 
-```
+```shell
+#编译设置rpath
 -Wl,-rpath=<rpath >
 ```
 
