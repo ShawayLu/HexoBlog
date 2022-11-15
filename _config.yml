@@ -112,4 +112,5 @@ deploy:
 #deploy:
 #  type: git
 #  repo: https://gitee.com/Shaway/shaway.git
+#  repo: git@gitee.com:Shaway/shaway.git
 #  branch: master
