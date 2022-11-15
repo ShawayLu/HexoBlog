@@ -41,6 +41,11 @@ jobs:
       run: | 
         git config --global user.name 'ShawayL' 
         git config --global user.email '741077606@qq.com'
+
+    - name: switch deploy
+      run: | 
+        chmod a+x ./switch.sh
+        ./switch.sh --git
         
     - name: Deploy Hexo 
       run: |
