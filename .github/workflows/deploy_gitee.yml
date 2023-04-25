@@ -39,11 +39,11 @@ jobs:
         
     - name: Setup Git Infomation
       env:
-        GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
-        GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
+        GITEE_USER_NAME: ${{ secrets.GITEE_USER_NAME }}
+        GITEE_USER_EMAIL: ${{ secrets.GITEE_USER_EMAIL }}
       run: | 
-        git config --global user.name '$GIT_USER_NAME' 
-        git config --global user.email '$GIT_USER_EMAIL'
+        git config --global user.name '$GITEE_USER_NAME' 
+        git config --global user.email '$GITEE_USER_EMAIL'
 
     - name: switch deploy
       run: | 
