@@ -38,9 +38,12 @@ jobs:
         ssh-keyscan github.com >> ~/.ssh/known_hosts
         
     - name: Setup Git Infomation
+      env:
+        GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
+        GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
       run: | 
-        git config --global user.name 'ShawayL' 
-        git config --global user.email '741077606@qq.com'
+        git config --global user.name '$GIT_USER_NAME' 
+        git config --global user.email '$GIT_USER_EMAIL'
 
     - name: switch deploy
       run: | 
