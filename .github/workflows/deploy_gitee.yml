@@ -49,6 +49,14 @@ jobs:
       run: | 
         chmod a+x ./switch.sh
         ./switch.sh --gitee
+
+    - name: Setup Gitalk
+      env:
+        COMMENT_CLIENT_ID: ${{ secrets.COMMENT_CLIENT_ID }}
+        COMMENT_CLIENT_SECRET: ${{ secrets.COMMENT_CLIENT_SECRET }}
+      run: | 
+        sed -i 's/COMMENT_CLIENT_ID/'$COMMENT_CLIENT_ID'/g' ./_config.icarus.yml
+        sed -i 's/COMMENT_CLIENT_SECRET/'$COMMENT_CLIENT_SECRET'/g' ./_config.icarus.yml
         
     - name: Deploy Hexo 
       run: |
