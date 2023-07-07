@@ -96,10 +96,10 @@ comment:
     type: gitalk
     client_id: COMMENT_CLIENT_ID
     client_secret: COMMENT_CLIENT_SECRET
-    repo: Some-of-Your-GitHub-Repo
-    owner: you_github_name
+    repo: HexoBlog
+    owner: ShawayL
     admin:
-        - you_github_name
+        - ShawayL
     per_page: 20                    # 可选填
     distraction_free_mode: false    # 可选填
     pager_direction: last           # 可选填
