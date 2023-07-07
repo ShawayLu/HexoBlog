@@ -35,8 +35,7 @@ class Footer extends Component {
                         </a>
                         <p class="is-size-7">
                             <span dangerouslySetInnerHTML={{ __html: `&copy; ${siteYear} ${author || siteTitle}` }}></span>
-                            &nbsp;&nbsp;Powered by <a href="https://github.com/ShawayL" target="_blank" rel="noopener">Shaway</a>&nbsp;&&nbsp;
-                            <a href="https://github.com/appolostar" target="_blank" rel="noopener">Q sang</a>
+                            &nbsp;&nbsp;Powered by <a href="https://github.com/ShawayL" target="_blank" rel="noopener">Shaway</a>
                             {showVisitorCounter ? <br /> : null}
                             {showVisitorCounter ? <span id="busuanzi_container_site_uv"
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
