@@ -96,7 +96,7 @@ comment:
     type: gitalk
     client_id: COMMENT_CLIENT_ID
     client_secret: COMMENT_CLIENT_SECRET
-    repo: HexoBlog
+    repo: ShawayL.github.io
     owner: ShawayL
     admin:
         - ShawayL
