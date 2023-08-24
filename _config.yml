@@ -101,6 +101,9 @@ ignore:
 #theme: landscape
 theme: icarus
 
+encrypt:
+  enable: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

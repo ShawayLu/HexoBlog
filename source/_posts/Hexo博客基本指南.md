@@ -62,7 +62,7 @@ hexo s
 hexo new [layout] <title>
 ```
 
-指令执行时，Hexo 会尝试在 scaffolds 中寻找photo.md布局，若找到，则根据该布局新建文章；若未找到或指令中未指定该参数，则使用post.md新建文章。新建文章的名称在_config.yml中配置。
+指令执行时，Hexo 会尝试在 scaffolds 中寻找layout.md布局，若找到，则根据该布局新建文章；若未找到或指令中未指定该参数，则使用post.md新建文章。新建文章的名称在_config.yml中配置。
 
 ### 6.部署静态页面
 
