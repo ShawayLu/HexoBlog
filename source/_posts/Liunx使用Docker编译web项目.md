@@ -1,12 +1,3 @@
-<!--
- * @Descripttion: 
- * @Author: CharmingZhang
- * @version: 
- * @Date: 2025-02-25 11:20:56
- * @LastEditors: Ewithome 1104094894@qq.com
- * @LastEditTime: 2025-02-27 17:02:49
--->
-
 ---
 title: Liunx使用Docker编译web项目
 date: 2025-02-25 11:20:56
