@@ -15,20 +15,26 @@ tags:
 ### 配置代理
 
 ```shell
-#设置代理
+# 设置代理
 git config --global http.proxy http://127.0.0.1:7890
 git config --global https.proxy http://127.0.0.1:7890
 
-#取消代理
+# 取消代理
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 
-#查看git配置
+# 查看git配置
 git config --list
-git config --global  --list 
+git config --global --list 
 ```
 
-https据说没用
+据说https没用
+
+### 配置正确显示中文路径
+
+```shell
+git config --global core.quotepath false
+```
 
 ### 克隆代码
 
