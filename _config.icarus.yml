@@ -178,9 +178,9 @@ widgets:
             #    icon: fas fa-rss
             #    url: /
     -
-        # 分类
+        # 最新文章
         position: left
-        type: categories
+        type: recent_posts
     -
         # 链接
         position: left
@@ -188,13 +188,9 @@ widgets:
         links:
             Shaway github: https://github.com/ShawayL
     -
-        # 最新文章
+        # 分类
         position: right
-        type: recent_posts
-    -
-        # 归档
-        position: right
-        type: archives
+        type: categories
     -
         #标签
         position: right
@@ -202,6 +198,10 @@ widgets:
         order_by: name
         amount: 
         show_count: true
+    -
+        # 归档
+        position: right
+        type: archives
     #-
         # 邮件订阅
         #position: left
