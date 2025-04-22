@@ -62,7 +62,7 @@ git add [dir]
 git commit -m "message"
 ```
 
-### 把本地提交推送到远程
+### 推送本地提交到远程仓库
 
 ```shell
 git push
